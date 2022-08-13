@@ -9,6 +9,7 @@ import { CountdownParent2Component } from './part1/countdown-parent2/countdown-p
 import { MissioncontrolComponent } from './part1/missioncontrol/missioncontrol.component';
 import { ContentProjection1Component } from './part1/content-projection1/content-projection1.component';
 import { ContentProjection2Component } from './part1/content-projection2/content-projection2.component';
+import { AdBannerComponent } from './directivestudy/ad-banner/ad-banner.component';
 
 const routes: Routes = [
   { path: '', redirectTo: '/dashboard', pathMatch: 'full' },
@@ -23,6 +24,7 @@ const routes: Routes = [
 
   { path: 'projection1', component: ContentProjection1Component },
   { path: 'projection2', component: ContentProjection2Component },
+  { path: 'banner', component: AdBannerComponent },
 ];
 
 @NgModule({

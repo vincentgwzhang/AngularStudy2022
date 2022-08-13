@@ -24,6 +24,10 @@ import { ContentProjection1Component } from './part1/content-projection1/content
 import { ContentProjection1childComponent } from './part1/content-projection1child/content-projection1child.component';
 import { ContentProjection2Component } from './part1/content-projection2/content-projection2.component';
 import { ContentProjection2childComponent } from './part1/content-projection2child/content-projection2child.component';
+import { AdBannerComponent } from './directivestudy/ad-banner/ad-banner.component';
+import { AdComponent1Component } from './directivestudy/ad-component1/ad-component1.component';
+import { AdComponent2Component } from './directivestudy/ad-component2/ad-component2.component';
+import { AdDirective } from './directivestudy/ad.directive';
 
 @NgModule({
   declarations: [
@@ -46,7 +50,11 @@ import { ContentProjection2childComponent } from './part1/content-projection2chi
     ContentProjection1Component,
     ContentProjection1childComponent,
     ContentProjection2Component,
-    ContentProjection2childComponent
+    ContentProjection2childComponent,
+    AdBannerComponent,
+    AdComponent1Component,
+    AdComponent2Component,
+    AdDirective
   ],
   imports: [
     BrowserModule,
