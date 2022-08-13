@@ -1,10 +1,11 @@
 <h1>{{title}}</h1>
-<nav>
-    <a routerLink="/dashboard">Dashboard \ </a>
-    <a routerLink="/heroes">Heroes \ </a>
-    <a routerLink="/part1">Component Study \ </a>
-    <a routerLink="/fc1">Father controler child 1 \ </a>
-    <a routerLink="/fc2">Father controler child 2 \ </a>
-</nav>
+<ul class="nav justify-content-end">
+    <li class="nav-item"><a class="nav-link" href="/dashboard">Dashboard</a></li>
+    <li class="nav-item"><a class="nav-link" href="/heroes">Heroes</a></li>
+    <li class="nav-item"><a class="nav-link" href="/part1">Component Study</a></li>
+    <li class="nav-item"><a class="nav-link" href="/fc1">Father-child demo 1</a></li>
+    <li class="nav-item"><a class="nav-link" href="/fc2">Father-child demo 2</a></li>
+    <li class="nav-item"><a class="nav-link" href="/mission">Mission Controller</a></li>
+</ul>
 <router-outlet></router-outlet>
 <app-messages></app-messages>

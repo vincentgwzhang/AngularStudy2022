@@ -6,6 +6,7 @@ import { HeroDetailComponent } from './hero-detail/hero-detail.component';
 import { Part1Component } from './part1/part1.component';
 import { CountdownParentComponent } from './part1/countdown-parent/countdown-parent.component';
 import { CountdownParent2Component } from './part1/countdown-parent2/countdown-parent2.component';
+import { MissioncontrolComponent } from './part1/missioncontrol/missioncontrol.component';
 
 const routes: Routes = [
   { path: '', redirectTo: '/dashboard', pathMatch: 'full' },
@@ -16,6 +17,7 @@ const routes: Routes = [
   { path: 'part1', component: Part1Component },
   { path: 'fc1', component: CountdownParentComponent },
   { path: 'fc2', component: CountdownParent2Component },
+  { path: 'mission', component: MissioncontrolComponent },
 ];
 
 @NgModule({
