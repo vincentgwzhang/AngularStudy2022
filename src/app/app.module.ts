@@ -20,6 +20,10 @@ import { CountdownParent2Component } from './part1/countdown-parent2/countdown-p
 import { CountdownTimer2Component } from './part1/countdown-timer2/countdown-timer2.component';
 import { MissioncontrolComponent } from './part1/missioncontrol/missioncontrol.component';
 import { MissioncontrolChildComponent } from './part1/missioncontrol-child/missioncontrol-child.component';
+import { ContentProjection1Component } from './part1/content-projection1/content-projection1.component';
+import { ContentProjection1childComponent } from './part1/content-projection1child/content-projection1child.component';
+import { ContentProjection2Component } from './part1/content-projection2/content-projection2.component';
+import { ContentProjection2childComponent } from './part1/content-projection2child/content-projection2child.component';
 
 @NgModule({
   declarations: [
@@ -38,7 +42,11 @@ import { MissioncontrolChildComponent } from './part1/missioncontrol-child/missi
     CountdownParent2Component,
     CountdownTimer2Component,
     MissioncontrolComponent,
-    MissioncontrolChildComponent
+    MissioncontrolChildComponent,
+    ContentProjection1Component,
+    ContentProjection1childComponent,
+    ContentProjection2Component,
+    ContentProjection2childComponent
   ],
   imports: [
     BrowserModule,
