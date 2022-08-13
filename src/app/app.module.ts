@@ -10,6 +10,14 @@ import { MessagesComponent } from './messages/messages.component';
 import { DashboardComponent } from './dashboard/dashboard.component'; // <-- NgModel lives here
 import { HttpClientModule } from '@angular/common/http';
 import { HeroSearchComponent } from './hero-search/hero-search.component';
+import { Part1Component } from './part1/part1.component';
+import { HeroParentComponent } from './part1/hero-parent/hero-parent.component';
+import { HeroChildComponent } from './part1/hero-child/hero-child.component';
+import { ListenChildComponent } from './part1/listen-child/listen-child.component';
+import { CountdownParentComponent } from './part1/countdown-parent/countdown-parent.component';
+import { CountdownTimerComponent } from './part1/countdown-timer/countdown-timer.component';
+import { CountdownParent2Component } from './part1/countdown-parent2/countdown-parent2.component';
+import { CountdownTimer2Component } from './part1/countdown-timer2/countdown-timer2.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +26,15 @@ import { HeroSearchComponent } from './hero-search/hero-search.component';
     HeroDetailComponent,
     MessagesComponent,
     DashboardComponent,
-    HeroSearchComponent
+    HeroSearchComponent,
+    Part1Component,
+    HeroParentComponent,
+    HeroChildComponent,
+    ListenChildComponent,
+    CountdownParentComponent,
+    CountdownTimerComponent,
+    CountdownParent2Component,
+    CountdownTimer2Component
   ],
   imports: [
     BrowserModule,

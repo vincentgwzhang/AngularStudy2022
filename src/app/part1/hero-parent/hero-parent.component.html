@@ -1,0 +1,9 @@
+<p>============ This is hero-parent start =============</p>
+<h2>{{master}}</h2>
+
+<!-- 传一个值进去，用的是 [, ] -->
+<app-hero-child [hero]="hero" [master]="master"></app-hero-child>
+
+<!-- 传一个值出来，用的是 () -->
+<app-listen-child (voted)="onVoted_runInParent($event)"></app-listen-child>
+<p>============ This is hero-parent start =============</p>
